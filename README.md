@@ -59,5 +59,5 @@ I care about writing backend systems that are:
 ## Contact
 
 * GitHub: @ingdev8023
-* LinkedIn: Add your LinkedIn URL here
-* Portfolio: Add your portfolio or project page here
+* LinkedIn: https://www.linkedin.com/in/daniel-jaimes-1702a615b
+* Portfolio: in Progress

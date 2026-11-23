@@ -1,63 +1,121 @@
-# Hi, I'm Daniel 👋
+# Daniel Jaimes
 
-I'm a backend-focused software engineer building secure, database-backed APIs with Python, Flask, SQLAlchemy, PostgreSQL, JWT authentication, role-based authorization, audit logs, and automated testing.
+### Python Backend Developer | REST APIs | PostgreSQL | Testing | Linux
 
-Before moving into software engineering, I worked in operations and legal/immigration case management, leading workflow-heavy teams and improving processes around case tracking, quality control, backlog, and client operations. That background shapes the kind of systems I like to build: practical backend tools that enforce business rules, protect sensitive actions, and make operational work easier to manage.
+I'm a backend-focused developer based in Bogotá, Colombia, building secure, tested, and maintainable Python applications and experimenting with reliable AI-assisted development workflows.
 
-## Current focus
+My work focuses on REST APIs, relational databases, authentication and authorization, automated testing, business workflow implementation, performance, reliability, and Linux deployment.
 
-* Building production-style backend APIs with Python and Flask
-* Designing relational models with SQLAlchemy and PostgreSQL
-* Implementing authentication, authorization, soft delete, audit logs, and workflow validation
-* Writing integration tests with pytest
-* Documenting projects like real engineering products, not just coding exercises
+Before transitioning into software development, I worked as an Operations Manager for a U.S. company, supporting workflows involving more than 200 employees. That experience helps me translate operational problems into clear requirements, reliable business rules, and practical software systems.
 
-## Featured project
+**Open to:** Python Backend Developer, Backend Engineer, and Software Engineer opportunities  
+**Location:** Bogotá, Colombia — available for remote LATAM and international roles  
+**Languages:** Spanish — Native | English — Advanced
 
-### Client Intake & Case Tracking API
+---
 
-A backend API inspired by legal operations and immigration case management workflows.
+## Technical Skills
 
-It includes:
+- **Backend:** Python, Flask, Django, FastAPI fundamentals, REST APIs
+- **Databases:** PostgreSQL, SQLite, SQLAlchemy, relational modeling, transactions, migrations
+- **Security:** JWT authentication, bcrypt, role-based access control, CORS
+- **Testing:** pytest, unit testing, integration testing, API testing, concurrency testing
+- **Performance:** SQL query profiling, pagination benchmarks, eager loading, N+1 analysis, Locust
+- **Infrastructure:** Linux, Gunicorn, Nginx, systemd, Cloudflare Tunnel
+- **DevOps:** Git, GitHub, Docker and Kubernetes fundamentals, CI/CD fundamentals
+- **AI Engineering:** LLM orchestration, AI-assisted development, agent workflows, local models, sandboxed code execution
+- **Engineering Practices:** OOP, data structures and algorithms, modular design, documentation, ADRs, code review
 
-* JWT authentication
-* Bcrypt password hashing
-* Role-based authorization
-* Client, user, and case management
-* Case workflow stage validation
-* Soft delete for cases
-* Audit log tracking
-* Filtering and pagination
-* PostgreSQL development database
-* SQLite test database
-* Flask-Migrate / Alembic migrations
-* Pytest integration tests
+---
 
-This project is designed to demonstrate backend architecture, database modeling, business rule enforcement, security fundamentals, and testing discipline.
+## Featured Projects
 
-## Tech stack
+### [Client Intake & Case Tracking API](https://github.com/ingdev8023/client-intake-case-tracking-api)
 
-**Backend:** Python, Flask, SQLAlchemy, Flask-JWT-Extended, Flask-Bcrypt
-**Database:** PostgreSQL, SQLite
-**Testing:** Pytest
-**Tools:** Git, GitHub, Alembic, Postman, PowerShell, Linux CLI
-**Currently learning:** Django, cloud deployment, CI/CD, API documentation, production hardening
+A production-minded case operations platform built to manage clients, users, case assignments, workflow transitions, and audit history.
 
-## What I'm building toward
+**Backend and data**
 
-I'm focused on backend engineering roles where I can combine software development with my previous experience in operations, workflow systems, process improvement, and team execution.
+- Built a REST API with Python, Flask, SQLAlchemy, and PostgreSQL
+- Implemented JWT authentication, password hashing, and role-based authorization
+- Added workflow validation, filtering, pagination, soft deletion, and audit logging
+- Managed database changes with Flask-Migrate and Alembic
 
-I care about writing backend systems that are:
+**Testing, performance, and reliability**
 
-* Clear
-* Secure
-* Tested
-* Documented
-* Maintainable
-* Useful for real business operations
+- Created automated API and integration tests with pytest
+- Developed PostgreSQL concurrency tests for workflow transitions and database atomicity
+- Investigated SQL query behavior, N+1 patterns, eager loading, and pagination performance
+- Documented architecture decisions, test procedures, security controls, and operational findings
+
+**Deployment**
+
+- Deployed the backend on a self-hosted Ubuntu server
+- Configured Gunicorn, systemd, and Nginx
+- Integrated a React and Vite frontend
+- Provided secure remote access through Cloudflare Tunnel
+
+The project is evolving toward stronger observability, backup and recovery procedures, containerization, caching, and CI/CD automation.
+
+### Local AI Code Orchestration Lab — In Progress
+
+An experimental AI-assisted development workflow that separates task orchestration, code generation, secure execution, testing, and independent review.
+
+Current work includes:
+
+- Coordinating specialized AI roles for code generation and technical review
+- Running generated Python code inside isolated Docker containers
+- Keeping trusted test assertions outside the generated code's execution process
+- Applying execution timeouts and resource limits to untrusted workloads
+- Validating results through trusted tests instead of relying on model-generated success messages
+- Testing failure scenarios involving malformed output, unsafe code, and excessive resource usage
+- Using a local language model as part of a private home-lab environment
+- Documenting security findings and improving the workflow through iterative code reviews
+
+The goal is to explore how AI coding agents can be used safely and reliably while preserving independent verification, reproducibility, and human oversight.
+
+---
+
+## Professional Background
+
+Before moving into backend development, I worked in operations, legal workflow management, and process engineering.
+
+As an Operations Manager, I:
+
+- Led operational systems supporting more than 200 employees
+- Designed KPIs, quality controls, SOPs, and standardized workflows
+- Coordinated cross-functional teams and resolved operational escalations
+- Applied continuous-improvement and root-cause-analysis methods
+- Translated complex business processes into structured requirements and controls
+
+I also hold a bachelor's degree in Chemical Engineering and a master's degree in Business Management.
+
+---
+
+## Education and Certifications
+
+- IBM Back-End Development Professional Certificate
+- Google IT Automation with Python Professional Certificate
+- Application Security for Developers and DevOps Professionals — IBM
+- Full Stack Software Developer Bootcamp — 4Geeks Academy
+- Master's Degree in Business Management
+- Bachelor's Degree in Chemical Engineering
+
+---
+
+## Current Engineering Focus
+
+- PostgreSQL performance, concurrency, backup, and recovery
+- API reliability and observability
+- Automated testing and production-oriented documentation
+- Docker, CI/CD, and deployment automation
+- Safe and verifiable AI-assisted software development
+- Building backend systems around real operational requirements
+
+---
 
 ## Contact
 
-* GitHub: @ingdev8023
-* LinkedIn: https://www.linkedin.com/in/daniel-jaimes-1702a615b
-* Portfolio: in Progress
+- [LinkedIn](https://www.linkedin.com/in/daniel-jaimes-1702a615b)
+- [GitHub](https://github.com/ingdev8023)
+- Email: ingdev8023@gmail.com
